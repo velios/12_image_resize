@@ -1,0 +1,9 @@
+.idea/
+Include/
+Lib/
+Scripts/
+*.jpg
+*.png
+*.gif
+pip-selfcheck.json
+pyvenv.cfg
