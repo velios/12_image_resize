@@ -7,17 +7,17 @@ Script resize original image by scale or height or width with preservation of pr
 Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 
 ```bash
-git clone https://github.com/velios/12_image_resize.git
-pip install -r requirements.txt # alternatively try pip3
+$ git clone https://github.com/velios/12_image_resize.git
+$ pip install -r requirements.txt # alternatively try pip3
 ```
 
 ### How to use
-#####Sample run
+##### Sample run
 ```bash
 $ python 3 test.jpg -s 2
 Result save to file test__50x500.jpg
 ```
-#####Arguments
+##### Arguments
 ```sh
 positional arguments:
   original                               path to original image
